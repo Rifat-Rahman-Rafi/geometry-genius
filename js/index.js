@@ -1,6 +1,5 @@
 // first-card
 
-
 let no=0;
 
 function intNumberCheck(a){
@@ -42,7 +41,7 @@ function triangleCalculate(a,b)
 
         if(intNumberCheck(area)==false)
         {
-            //console.log("HELLO")
+            
               area=area.toFixed(2);
         }
 
@@ -87,7 +86,7 @@ document.getElementById('first-btn').addEventListener('click',function(){
     <br></br>
    
    
-    
+  
     `;
     container.appendChild(tr)
 
