@@ -1,0 +1,43 @@
+.cm{
+    margin-left: 2px;
+    margin-right:2px;
+}
+.title-name{
+    font-size: 40px;
+}
+.card-body{
+    text-align: center;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    background-color: rgba(16, 144, 216, 0.1);
+    
+}
+.blog{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#first-btn,#sec-btn {
+    margin-top: 10px;
+}
+#six-btn{
+    margin-top: 36px;
+}
+.blog-pg{
+    margin-top: 50px;
+}
+.rendom-color-1 .btn{
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
