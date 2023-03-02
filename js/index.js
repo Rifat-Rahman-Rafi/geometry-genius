@@ -72,7 +72,6 @@ document.getElementById('first-btn').addEventListener('click',function(){
     }
     else 
     {
-    
      let ans=triangleCalculate(first,second)
     const container=document.getElementById('table-container');
     const tr=document.createElement('tr');
