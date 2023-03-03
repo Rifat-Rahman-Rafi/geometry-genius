@@ -132,7 +132,6 @@ document.getElementById('sec-btn').addEventListener('click',function(){
     const first=document.getElementById('w').value;
     const second= document.getElementById('i').value;
 
-    //console.log('first')
     
     document.getElementById('w').value=''
     document.getElementById('i').value=''
