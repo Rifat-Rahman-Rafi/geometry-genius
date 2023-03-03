@@ -84,8 +84,6 @@ document.getElementById('first-btn').addEventListener('click',function(){
     </button>
     <br></br>
    
-   
-  
     `;
     container.appendChild(tr)
 
