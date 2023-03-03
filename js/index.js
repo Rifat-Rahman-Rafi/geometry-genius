@@ -29,15 +29,12 @@ function checkNumber(a,b)
 
 
 
-
-
-// triangleCalculate
+// triangleCalculate 
 
 function triangleCalculate(a,b)
 {
     
         let area=0.5*a*b;
-
 
         if(intNumberCheck(area)==false)
         {
@@ -135,9 +132,6 @@ document.getElementById('sec-btn').addEventListener('click',function(){
     
     document.getElementById('w').value=''
     document.getElementById('i').value=''
-  
-
-    //console.log(first,second)
 
     if (first === ''||second==''||rectangleCalculate(first,second)=='NaN' || rectangleCalculate(first,second)<=0) {
        
@@ -158,8 +152,7 @@ document.getElementById('sec-btn').addEventListener('click',function(){
     </button>
     <br></br>
    
-   
-    
+
     `;
     container.appendChild(tr)
 
@@ -182,14 +175,6 @@ document.getElementById('trd-btn').addEventListener('click',function(){
 
     const first=document.getElementById('b1').innerText;
     const second= document.getElementById('h1').innerText;
-    
-    // document.getElementById('b1').value=''
-    // document.getElementById('h1').value=''
-  
-
-    //console.log(first,second)
-
-
     
      let ans=rectangleCalculate(first,second)
     const container=document.getElementById('table-container');
@@ -225,13 +210,6 @@ document.getElementById('fourth-btn').addEventListener('click',function(){
 
     const first=document.getElementById('d1').innerText;
     const second= document.getElementById('d2').innerText;
-    
-    // document.getElementById('b1').value=''
-    // document.getElementById('h1').value=''
-  
-
-    //console.log(first,second)
-
 
     
      let ans=triangleCalculate(first,second)
