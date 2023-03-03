@@ -107,11 +107,9 @@ function rectangleCalculate(a,b){
 
    
         let area=a*b;
-
-
         if(intNumberCheck(area)==false)
         {
-           // console.log("HELLO")
+          
               area=area.toFixed(2);
         }
 
@@ -133,6 +131,8 @@ document.getElementById('sec-btn').addEventListener('click',function(){
 
     const first=document.getElementById('w').value;
     const second= document.getElementById('i').value;
+
+    //console.log('first')
     
     document.getElementById('w').value=''
     document.getElementById('i').value=''
